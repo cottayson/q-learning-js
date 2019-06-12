@@ -1,0 +1,7 @@
+body {
+	margin: 0;
+}
+
+canvas {
+	border: solid gray 1px;
+}

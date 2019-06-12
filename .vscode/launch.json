@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "nw.js",
+            "request": "launch",
+            "name": "nwjs DOM debug",
+            "runtimeExecutable": "${workspaceRoot}/nw.exe",
+            "runtimeArgs": [
+                "${workspaceRoot}",
+                "--remote-debugging-port=9222"
+            ],
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": false,
+            "diagnosticLogging": true,
+            "port": 9222
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "nwjs Node debug",
+            "runtimeExecutable": "${workspaceRoot}/nw.exe",
+            "runtimeArgs": [
+                "${workspaceRoot}",
+                "--remote-debugging-port=9222"
+            ],
+            "url": "chrome-extension://*/_generated_background_page.html",
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": false,
+            "diagnosticLogging": true,
+            "port": 9222
+        }
+    ]
+}

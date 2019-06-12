@@ -1,0 +1,19 @@
+
+* Place 1-9 once each into every row, column and bold lined 3x3 box.
+
+* Additionally, the numbers outside the grid give the sum of all the numbers that are between 1 and 9 in the respective row or column.
+1 2 ... 8 9
+
+1.
+procedure sumBetween1and9() {
+	
+}
+
+...1 продолжение
+
+2.
+procedure sumBetween1and9() {
+	
+}
+
+...2 продолжение

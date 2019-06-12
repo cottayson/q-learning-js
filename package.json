@@ -1,0 +1,17 @@
+{
+  "name": "q-learning-demo",
+  "version": "1.0.0",
+  "description": "q-learning demonstration on 2d board",
+  "main": "index.html",
+  "window": {
+    "toolbar": true,
+    "width": 500,
+    "height": 700,
+		"always_on_top": false,
+		"frame": true,
+		"fullscreen": false
+  },
+	"dependencies": {
+		
+	}
+}
